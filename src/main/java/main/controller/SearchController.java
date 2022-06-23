@@ -31,12 +31,16 @@ public class SearchController {
         else{
             try {
                 String json = wikiService.wiki(name).toJSONString();
-                System.out.println(json);
-                Gson gson = new GsonBuilder().setPrettyPrinting().create();
-                JsonElement je = JsonParser.parseString(json);
-                String prettyJsonString = gson.toJson(je);
-                System.out.println(prettyJsonString);
-                return prettyJsonString;
+                if(json == null || json.length() == 0)
+                    return null;
+                else {
+                    System.out.println(json);
+                    Gson gson = new GsonBuilder().setPrettyPrinting().create();
+                    JsonElement je = JsonParser.parseString(json);
+                    String prettyJsonString = gson.toJson(je);
+                    System.out.println(prettyJsonString);
+                    return prettyJsonString;
+                }
             }
             catch (ParseException e){
                 return null;
