@@ -10,4 +10,5 @@ import java.util.Optional;
 public interface ReferenceRepository extends JpaRepository<Reference, Long> {
     Reference getReferenceById(Long id);
     List<Reference> getReferencesByAid(Long AId);
+    List<Reference> getReferencesByCid(Long CId);
 }

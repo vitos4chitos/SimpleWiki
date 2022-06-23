@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8821c67b-c9bb-46e2-b118-d3773ba00f11" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/main/controller/InfoController.java" afterDir="false" />
+    <list default="true" id="e5354bb3-4ca0-433f-9046-09f15f97c5e1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +25,14 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2Aym8R4EycFNBFuGCQVn64kkhkG" />
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2AzXJVhvUtQR2F3vrZNPhLRBeEV" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -39,19 +46,12 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "nodejs_package_manager_path": "npm"
-  },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
-    ]
+    "last_opened_file_path": "C:/Users/Admin/Desktop/gazprom"
   }
 }]]></component>
   <component name="RunManager">
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <option name="ACTIVE_PROFILES" />
       <module name="gazprom" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="main.Application" />
       <method v="2">
@@ -62,27 +62,16 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8821c67b-c9bb-46e2-b118-d3773ba00f11" name="Changes" comment="" />
-      <created>1655990041073</created>
+      <changelist id="e5354bb3-4ca0-433f-9046-09f15f97c5e1" name="Changes" comment="" />
+      <created>1656013315577</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1655990041073</updated>
-      <workItem from="1655990042412" duration="22613000" />
+      <updated>1656013315577</updated>
+      <workItem from="1656013316714" duration="472000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>
