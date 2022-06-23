@@ -25,7 +25,7 @@ public class SearchController {
             try {
                 return wikiService.wiki(name).toString();
             }
-            catch (ParseException e){
+            catch (ParseException | NullPointerException exception){
                 return null;
             }
         else{
