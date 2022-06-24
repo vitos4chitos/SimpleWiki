@@ -7,7 +7,7 @@
 - Без обновления и загрузки данных **без аргументов**.
 
 SQL скрипт в директории sql (пропишите путь к файлу в String script в SimpleWiki/src/main/java/main/Application.java).
-В application.properties - данные для подключения к бд, а так же логин-пароль отправки запросов со свагера или с Postman.
+В application.properties - данные для подключения к бд.
 В DriverManager.getConnection в SimpleWiki/src/main/java/main/Application.java - так же данные для подключения к бд.
 # Основное задание
 Смотри ветку maintask
