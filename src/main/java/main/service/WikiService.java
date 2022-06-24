@@ -30,9 +30,9 @@ public class WikiService {
     }
 
     public JSONObject wiki(String name) throws ParseException {
-        Optional<Article> optionalArticle = articleRepository.getArticleByTitleIgnoreCase(name);
-        if(optionalArticle.isPresent()){
-            Article article = optionalArticle.get();
+        List<Article> optionalArticle = articleRepository.getArticlesByTitleIgnoreCase(name);
+        if(optionalArticle.size() > 0){
+            Article article = optionalArticle.get(0);
             System.out.println(article.getWiki());
             JSONObject jsonObject = new JSONObject();
             String create_timestamp = article.getCreateTimestamp().toString();

@@ -3,6 +3,7 @@ package main.controller;
 import main.service.ImportDataService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.io.IOException;
@@ -17,5 +18,6 @@ public class HelloController {
     public String hello() {
         return "hello";
     }
+
 
 }

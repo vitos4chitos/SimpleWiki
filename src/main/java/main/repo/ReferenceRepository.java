@@ -11,4 +11,7 @@ public interface ReferenceRepository extends JpaRepository<Reference, Long> {
     Reference getReferenceById(Long id);
     List<Reference> getReferencesByAid(Long AId);
     List<Reference> getReferencesByCid(Long CId);
+    List<Reference> getReferencesByCidAndAid(Long CId, Long AId);
+
+    void deleteReferencesByAid(Long AId);
 }
